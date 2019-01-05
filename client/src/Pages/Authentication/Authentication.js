@@ -1,8 +1,6 @@
-import React, {Component} from 'react';
-import Login from './Login'; 
+import Login from './Login';
+import React from 'react';
 import Register from './Register';
-
-
 
 //fragment instead of wrapping in div
 

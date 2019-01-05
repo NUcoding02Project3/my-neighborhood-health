@@ -1,4 +1,4 @@
-const express = require('express')
+const express = require('express');
 const app = express();
 const bodyParser = require("body-parser");
 const routes = require("./routes");
@@ -14,7 +14,7 @@ var MongoStore = require('connect-mongo')(session);
 var db = mongoose.connection;
 
 //connect to mongoose
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/my-neighborhood-health');
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/my-neighborhood-health', { useNewUrlParser: true });
 
 //var db = mongoose.connection;
 

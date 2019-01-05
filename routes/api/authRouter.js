@@ -7,7 +7,7 @@ var User = require('./../../models/user');
 // router.get('/login', function (req, res, next) {
 //   return res.sendFile(path.join(__dirname + '/templateLogReg/index.html'));
 // });
-console.log("in authRouter")
+// console.log("in authRouter")
 
 //POST route for updating data. The / is using index.js which is /api/authentication
 router.route('/register').post (function(req, res){

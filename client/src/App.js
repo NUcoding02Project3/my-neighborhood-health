@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css';
-import Nav from './components/Nav';
-import Communities from './Pages/Communities';
-import News from './Pages/News';
-import GoogleApiWrapper from './components/MapContainer';
-import Authentication from './Pages/Authentication';
-import Header from './components/Header';
 
+import React, { Component } from 'react';
+import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
+
+import Authentication from './Pages/Authentication';
+import Communities from './Pages/Communities';
+import GoogleApiWrapper from './components/MapContainer';
+import Nav from './components/Nav';
+import News from './Pages/News';
 
 class App extends Component {
   render() {

@@ -3,7 +3,7 @@ var router = express.Router();
 var Post = require('./../../models/posts');
 // const postsController = ('./../../controllers/postsController.js');
 
-console.log("in postsRouter")
+// console.log("in postsRouter")
 
 router.route('/').get (function(req, res){
   // console.log(req);
